@@ -27,8 +27,10 @@ hi Type         ctermbg=None ctermfg=254  cterm=None
 hi Special      ctermfg=138 ctermbg=NONE guifg=#be868c guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Underlined   ctermbg=None ctermfg=None cterm=Underline
 hi Ignore       ctermbg=None ctermfg=None cterm=None
-hi Error        ctermbg=220  ctermfg=None cterm=None
-hi ErrorMsg     ctermbg=220  ctermfg=None cterm=None
+hi Error        ctermbg=None  ctermfg=196 cterm=None
+hi ErrorMsg     ctermbg=None  ctermfg=196 cterm=None
+hi Warning      ctermbg=None  ctermfg=110 cterm=None
+hi WarningMsg   ctermbg=None  ctermfg=110 cterm=None
 hi Todo         ctermfg=138 ctermbg=NONE guifg=#be868c guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi ColorColumn  ctermbg=235  ctermfg=252  cterm=None
 hi Cursor       ctermbg=None ctermfg=None cterm=Reverse
@@ -38,7 +40,7 @@ hi VertSplit    ctermbg=238  ctermfg=238  cterm=None
 hi Folded       ctermbg=None ctermfg=None cterm=None
 hi FoldColumn   ctermbg=None ctermfg=244  cterm=None
 hi SignColumn   ctermbg=None ctermfg=160  cterm=None
-hi IncSearch    ctermbg=032  ctermfg=234  cterm=None
+hi IncSearch    ctermbg=110  ctermfg=234  cterm=None
 hi LineNr       ctermbg=None ctermfg=237  cterm=None
 hi CursorLineNr ctermbg=None ctermfg=244  cterm=Bold
 hi MatchParen   ctermbg=None ctermfg=None cterm=Reverse
@@ -46,7 +48,7 @@ hi Pmenu        ctermbg=235  ctermfg=110  cterm=None
 hi PmenuSel     ctermbg=235  ctermfg=039  cterm=Reverse
 hi PmenuSbar    ctermbg=235  ctermfg=235  cterm=None
 hi PmenuThumb   ctermbg=238  ctermfg=238  cterm=None
-hi Search       ctermbg=039  ctermfg=234  cterm=None
+hi Search       ctermbg=110  ctermfg=234  cterm=None
 hi SpecialKey   ctermbg=None ctermfg=039  cterm=None
 hi SpellBad     ctermbg=160  ctermfg=None cterm=None
 hi SpellCap     ctermbg=226  ctermfg=234  cterm=None
@@ -61,6 +63,14 @@ hi Keyword      ctermfg=131 ctermbg=NONE guifg=#bd7e79 guibg=NONE guisp=NONE cte
 "golang
 
 "javascript
-hi jsObjectKey      ctermfg=131 ctermbg=NONE guifg=#bd7e79 guibg=NONE guisp=NONE cterm=NONE gui=NONE
+hi jsObjectKey  ctermfg=131 ctermbg=NONE guifg=#bd7e79 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 
+" python
+hi pythonClassVar   ctermfg=131 ctermbg=NONE guifg=#bd7e79 guibg=NONE guisp=NONE cterm=NONE gui=NONE
+hi pythonDottedName   ctermfg=131 ctermbg=NONE guifg=#bd7e79 guibg=NONE guisp=NONE cterm=NONE gui=NONE
+hi pythonDottedName   ctermfg=131 ctermbg=NONE guifg=#bd7e79 guibg=NONE guisp=NONE cterm=NONE gui=NONE
+hi pythonBuiltinFunc   ctermfg=131 ctermbg=NONE guifg=#bd7e79 guibg=NONE guisp=NONE cterm=NONE gui=NONE
+
+"c++
+hi cCustomFunc   ctermfg=131 ctermbg=NONE guifg=#bd7e79 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 
