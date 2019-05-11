@@ -7,6 +7,9 @@ Plug 'ldelossa/vimdark'
 # Go Screenshot
 ![Alt text](./screenshots/go.png?raw=true "go code")
 
+# C++
+![Alt text](./screenshots/c++.png?raw=true "vim-fugitive diff")
+
 # Vim-Fugitive Diff
 ![Alt text](./screenshots/fugitive-diff.png?raw=true "vim-fugitive diff")
 
