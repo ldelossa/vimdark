@@ -60,6 +60,10 @@ hi TabLineSel   ctermbg=234  ctermfg=015  cterm=Bold
 hi Title        ctermbg=None ctermfg=None cterm=Bold
 hi WarningMsg   ctermbg=160  ctermfg=None cterm=None
 hi Keyword      ctermfg=131 ctermbg=NONE guifg=#bd7e79 guibg=NONE guisp=NONE cterm=NONE gui=NONE
+hi DiffAdd      ctermbg=117  ctermfg=016
+hi DiffDelete   ctermbg=131  ctermfg=016
+hi DiffChange   ctermbg=110  ctermfg=016
+hi DiffText     ctermbg=131  ctermfg=016
 "golang
 
 "javascript
