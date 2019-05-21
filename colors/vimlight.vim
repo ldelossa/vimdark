@@ -21,6 +21,7 @@ hi Character    ctermbg=NONE ctermfg=024 cterm=NONE
 hi Identifier   ctermbg=NONE ctermfg=NONE cterm=NONE
 hi Statement    ctermbg=NONE ctermfg=024 cterm=NONE
 hi PreProc      ctermbg=NONE ctermfg=024 cterm=NONE
+hi Operator     ctermbg=NONE ctermfg=131 cterm=NONE
 hi Type         ctermbg=NONE ctermfg=240 cterm=NONE
 hi Special      ctermbg=NONE ctermfg=138 cterm=NONE 
 hi Underlined   ctermbg=NONE ctermfg=NONE cterm=Underline
@@ -65,7 +66,6 @@ hi DiffText     ctermbg=108  ctermfg=016 cterm=NONE
 
 "golang
 hi goField      ctermbg=NONE ctermfg=NONE cterm=NONE
-hi goOperator   ctermbg=NONE ctermfg=NONE  cterm=NONE
 
 "javascript
 hi jsObjectKey ctermbg=NONE ctermfg=131 cterm=NONE 
