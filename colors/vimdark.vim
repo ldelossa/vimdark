@@ -15,6 +15,8 @@ let g:colors_name = 'vimdark'
 
 set background=dark
 hi Normal       ctermbg=234  ctermfg=244 cterm=NONE
+hi Question     ctermbg=234  ctermfg=244 cterm=Bold
+hi MoreMsg      ctermbg=234  ctermfg=244 cterm=Bold
 hi Visual       ctermbg=234  ctermfg=252 cterm=Reverse
 hi Comment      ctermbg=NONE ctermfg=238 cterm=NONE
 hi Constant     ctermbg=NONE ctermfg=110 cterm=NONE 
@@ -46,7 +48,7 @@ hi LineNr       ctermbg=NONE ctermfg=237 cterm=NONE
 hi CursorLineNr ctermbg=NONE ctermfg=244 cterm=Bold
 hi MatchParen   ctermbg=NONE ctermfg=NONE cterm=Reverse
 hi Pmenu        ctermbg=235  ctermfg=110 cterm=NONE
-hi PmenuSel     ctermbg=235  ctermfg=039 cterm=Reverse
+hi PmenuSel     ctermbg=235  ctermfg=110 cterm=Reverse
 hi PmenuSbar    ctermbg=235  ctermfg=235 cterm=NONE
 hi PmenuThumb   ctermbg=238  ctermfg=238 cterm=NONE
 hi Search       ctermbg=110  ctermfg=234 cterm=NONE
@@ -55,16 +57,19 @@ hi SpellBad     ctermbg=160  ctermfg=NONE cterm=NONE
 hi SpellCap     ctermbg=226  ctermfg=234 cterm=NONE
 hi StatusLine   ctermbg=238  ctermfg=015 cterm=Bold
 hi StatusLineNC ctermbg=238  ctermfg=252 cterm=NONE
+hi WildMenu     ctermbg=235  ctermfg=110 cterm=Reverse
+" hi WildMenu     ctermbg=235  ctermfg=039 cterm=Reverse
 hi TabLine      ctermbg=238  ctermfg=252 cterm=NONE
 hi TabLineFill  ctermbg=238  ctermfg=252 cterm=NONE
 hi TabLineSel   ctermbg=234  ctermfg=015 cterm=Bold
 hi Title        ctermbg=NONE ctermfg=NONE cterm=Bold
-hi WarningMsg   ctermbg=160  ctermfg=NONE cterm=NONE
+hi WarningMsg   ctermbg=160  ctermfg=000 cterm=NONE
 hi Keyword      ctermbg=NONE ctermfg=131 cterm=NONE
 hi DiffAdd      ctermbg=108  ctermfg=016 cterm=NONE
 hi DiffDelete   ctermbg=131  ctermfg=016 cterm=NONE
 hi DiffChange   ctermbg=110  ctermfg=016 cterm=NONE
 hi DiffText     ctermbg=108  ctermfg=016 cterm=NONE
+hi qfLineNr     ctermbg=NONE ctermfg=244 cterm=Bold
 
 "golang
 hi goField      ctermbg=NONE ctermfg=NONE cterm=NONE

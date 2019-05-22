@@ -13,6 +13,8 @@ let g:colors_name = 'vimlight'
 
 set background=light
 hi Normal       ctermbg=254  ctermfg=240 cterm=NONE
+hi Question     ctermbg=254  ctermfg=240 cterm=Bold 
+hi MoreMsg      ctermbg=254  ctermfg=240 cterm=Bold
 hi Visual       ctermbg=254  ctermfg=024 cterm=Reverse
 hi Comment      ctermbg=NONE ctermfg=246 cterm=NONE
 hi Constant     ctermbg=NONE ctermfg=024 cterm=NONE 
@@ -42,27 +44,29 @@ hi SignColumn   ctermbg=NONE ctermfg=160 cterm=NONE
 hi IncSearch    ctermbg=110  ctermfg=234 cterm=NONE
 hi LineNr       ctermbg=NONE ctermfg=237 cterm=NONE
 hi CursorLineNr ctermbg=NONE ctermfg=244 cterm=Bold
-hi MatchParen   ctermbg=235 ctermfg=NONE cterm=Reverse
+hi MatchParen   ctermbg=240  ctermfg=254 cterm=None
 hi Pmenu        ctermbg=253  ctermfg=240 cterm=NONE
-hi PmenuSel     ctermbg=039  ctermfg=240 cterm=NONE
+hi PmenuSel     ctermbg=110  ctermfg=240 cterm=NONE
 hi PmenuSbar    ctermbg=253  ctermfg=240 cterm=NONE
 hi PmenuThumb   ctermbg=253  ctermfg=240 cterm=NONE
 hi Search       ctermbg=110  ctermfg=234 cterm=NONE
 hi SpecialKey   ctermbg=NONE ctermfg=039 cterm=NONE
 hi SpellBad     ctermbg=160  ctermfg=NONE cterm=NONE
 hi SpellCap     ctermbg=226  ctermfg=234 cterm=NONE
-hi StatusLine   ctermbg=235  ctermfg=039 cterm=Bold
-hi StatusLineNC ctermbg=238  ctermfg=252 cterm=NONE
+hi StatusLine   ctermbg=253  ctermfg=240 cterm=NONE
+hi StatusLineNC ctermbg=253  ctermfg=240 cterm=NONE
+hi WildMenu     ctermbg=110  ctermfg=240 cterm=NONE
 hi TabLine      ctermbg=238  ctermfg=252 cterm=NONE
 hi TabLineFill  ctermbg=238  ctermfg=252 cterm=NONE
 hi TabLineSel   ctermbg=235  ctermfg=039 cterm=Bold
 hi Title        ctermbg=NONE ctermfg=NONE cterm=Bold
-hi WarningMsg   ctermbg=160  ctermfg=NONE cterm=NONE
+hi WarningMsg   ctermbg=160  ctermfg=000 cterm=NONE
 hi Keyword      ctermbg=NONE ctermfg=024 cterm=NONE
 hi DiffAdd      ctermbg=108  ctermfg=016 cterm=NONE
 hi DiffDelete   ctermbg=131  ctermfg=016 cterm=NONE
 hi DiffChange   ctermbg=110  ctermfg=016 cterm=NONE
 hi DiffText     ctermbg=108  ctermfg=016 cterm=NONE
+hi qfLineNr     ctermbg=NONE ctermfg=None cterm=Bold
 
 "golang
 hi goField      ctermbg=NONE ctermfg=NONE cterm=NONE
