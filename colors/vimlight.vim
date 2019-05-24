@@ -24,7 +24,7 @@ hi Identifier   ctermbg=NONE ctermfg=NONE cterm=NONE
 hi Statement    ctermbg=NONE ctermfg=024 cterm=NONE
 hi PreProc      ctermbg=NONE ctermfg=024 cterm=NONE
 hi Operator     ctermbg=NONE ctermfg=131 cterm=NONE
-hi Type         ctermbg=NONE ctermfg=240 cterm=NONE
+hi Type         ctermbg=NONE ctermfg=024 cterm=NONE
 hi Special      ctermbg=NONE ctermfg=138 cterm=NONE 
 hi Underlined   ctermbg=NONE ctermfg=NONE cterm=Underline
 hi Ignore       ctermbg=NONE ctermfg=NONE cterm=NONE
@@ -70,6 +70,12 @@ hi qfLineNr     ctermbg=NONE ctermfg=None cterm=Bold
 
 "golang
 hi goField      ctermbg=NONE ctermfg=NONE cterm=NONE
+hi goType       ctermbg=NONE ctermfg=024  cterm=NONE
+hi goSignedInts ctermbg=NONE ctermfg=024  cterm=NONE
+hi goUnsignedInts ctermbg=NONE ctermfg=024  cterm=NONE
+hi goFloats ctermbg=NONE ctermfg=024  cterm=NONE
+hi goTypeName ctermbg=NONE ctermfg=240 cterm=NONE
+
 
 "javascript
 hi jsObjectKey ctermbg=NONE ctermfg=131 cterm=NONE 

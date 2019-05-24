@@ -27,6 +27,7 @@ hi Statement    ctermbg=NONE ctermfg=254 cterm=NONE
 hi PreProc      ctermbg=NONE ctermfg=254 cterm=NONE
 hi Operator     ctermbg=NONE ctermfg=110 cterm=NONE
 hi Type         ctermbg=NONE ctermfg=254 cterm=NONE
+" hi Type       ctermbg=234  ctermfg=244 cterm=NONE
 hi Special      ctermbg=NONE ctermfg=138 cterm=NONE 
 hi Underlined   ctermbg=NONE ctermfg=NONE cterm=Underline
 hi Ignore       ctermbg=NONE ctermfg=NONE cterm=NONE
@@ -58,7 +59,6 @@ hi SpellCap     ctermbg=226  ctermfg=234 cterm=NONE
 hi StatusLine   ctermbg=238  ctermfg=015 cterm=Bold
 hi StatusLineNC ctermbg=238  ctermfg=252 cterm=NONE
 hi WildMenu     ctermbg=235  ctermfg=110 cterm=Reverse
-" hi WildMenu     ctermbg=235  ctermfg=039 cterm=Reverse
 hi TabLine      ctermbg=238  ctermfg=252 cterm=NONE
 hi TabLineFill  ctermbg=238  ctermfg=252 cterm=NONE
 hi TabLineSel   ctermbg=234  ctermfg=015 cterm=Bold
@@ -73,6 +73,10 @@ hi qfLineNr     ctermbg=NONE ctermfg=244 cterm=Bold
 
 "golang
 hi goField      ctermbg=NONE ctermfg=NONE cterm=NONE
+hi goType       ctermbg=NONE ctermfg=131 cterm=NONE
+hi goSignedInts ctermbg=NONE ctermfg=131  cterm=NONE
+hi goUnsignedInts ctermbg=NONE ctermfg=131  cterm=NONE
+hi goFloats ctermbg=NONE ctermfg=131  cterm=NONE
 
 "javascript
 hi jsObjectKey ctermbg=NONE ctermfg=131 cterm=NONE 
