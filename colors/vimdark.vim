@@ -54,7 +54,7 @@ hi PmenuSbar    ctermbg=235  ctermfg=235 cterm=NONE
 hi PmenuThumb   ctermbg=238  ctermfg=238 cterm=NONE
 hi Search       ctermbg=110  ctermfg=234 cterm=NONE
 hi SpecialKey   ctermbg=NONE ctermfg=039 cterm=NONE
-hi SpellBad     ctermbg=229  ctermfg=NONE cterm=NONE
+hi SpellBad     ctermbg=NONE  ctermfg=NONE cterm=NONE
 hi SpellCap     ctermbg=226  ctermfg=234 cterm=NONE
 hi StatusLine   ctermbg=238  ctermfg=015 cterm=Bold
 hi StatusLineNC ctermbg=238  ctermfg=252 cterm=NONE
