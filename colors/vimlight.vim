@@ -35,7 +35,7 @@ hi WarningMsg   ctermbg=229  ctermfg=000 cterm=NONE
 hi Todo         ctermbg=NONE ctermfg=138 cterm=NONE
 hi ColorColumn  ctermbg=254  ctermfg=240 cterm=NONE
 hi Cursor       ctermbg=240  ctermfg=254  cterm=None
-hi CursorLine   ctermbg=235  ctermfg=NONE cterm=NONE
+hi CursorLine   ctermbg=254  ctermfg=NONE cterm=NONE
 hi Directory    ctermbg=NONE  ctermfg=240 cterm=Underline
 hi VertSplit    ctermbg=238  ctermfg=238 cterm=NONE
 hi Folded       ctermbg=NONE ctermfg=NONE cterm=NONE
