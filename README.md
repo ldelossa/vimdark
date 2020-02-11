@@ -1,5 +1,6 @@
 # vimdark
 A Vim theme for night time. Loosely based on vim-monotonic and chrome's dark reader extention. 
+A light theme is included as well for the day time. 
 
 # Installation (via vim-plug)
 Plug 'ldelossa/vimdark'
