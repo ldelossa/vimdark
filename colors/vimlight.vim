@@ -50,6 +50,7 @@ hi PmenuSel     ctermbg=110  ctermfg=240 cterm=NONE
 hi PmenuSbar    ctermbg=253  ctermfg=240 cterm=NONE
 hi PmenuThumb   ctermbg=253  ctermfg=240 cterm=NONE
 hi Search       ctermbg=110  ctermfg=234 cterm=NONE
+hi CursorLine   ctermbg=110  ctermfg=234 cterm=NONE
 hi SpecialKey   ctermbg=NONE ctermfg=039 cterm=NONE
 hi SpellBad     ctermbg=NONE ctermfg=NONE cterm=NONE
 hi SpellRare    ctermbg=NONE ctermfg=NONE cterm=NONE

@@ -53,6 +53,7 @@ hi PmenuSel     ctermbg=235  ctermfg=110 cterm=Reverse
 hi PmenuSbar    ctermbg=235  ctermfg=235 cterm=NONE
 hi PmenuThumb   ctermbg=238  ctermfg=238 cterm=NONE
 hi Search       ctermbg=110  ctermfg=234 cterm=NONE
+hi CusorLine    ctermbg=110  ctermfg=234 cterm=NONE
 hi SpecialKey   ctermbg=NONE ctermfg=039 cterm=NONE
 hi SpellBad     ctermbg=NONE  ctermfg=NONE cterm=NONE
 hi SpellRare    ctermbg=NONE  ctermfg=NONE cterm=NONE
