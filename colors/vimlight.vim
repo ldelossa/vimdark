@@ -94,3 +94,10 @@ hi cppSTLios      ctermbg=NONE ctermfg=131
 hi cCustomFunc    ctermbg=NONE ctermfg=131
 hi cStructure     ctermbg=NONE ctermfg=131
 
+"CoC
+hi CocInfoFloat ctermbg=None  ctermfg=031 cterm=NONE
+hi CocInfoSign ctermbg=None  ctermfg=031 cterm=NONE
+hi CocListFgYellow ctermbg=None  ctermfg=131 cterm=NONE
+hi CocListBgYellow ctermbg=None  ctermfg=131 cterm=NONE
+hi CocListFgGrey ctermbg=None  ctermfg=243 cterm=NONE
+ 
