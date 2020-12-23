@@ -14,7 +14,7 @@ endif
 let g:colors_name = 'vimdark'
 
 set background=dark
-hi Normal       ctermbg=234  ctermfg=244 cterm=NONE
+hi Normal       ctermbg=234  ctermfg=246 cterm=NONE
 hi Question     ctermbg=234  ctermfg=244 cterm=Bold
 hi MoreMsg      ctermbg=234  ctermfg=244 cterm=Bold
 hi Visual       ctermbg=234  ctermfg=252 cterm=Reverse
