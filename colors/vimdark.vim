@@ -18,7 +18,7 @@ hi Normal       ctermbg=234  ctermfg=246 cterm=NONE
 hi Question     ctermbg=234  ctermfg=244 cterm=Bold
 hi MoreMsg      ctermbg=234  ctermfg=244 cterm=Bold
 hi Visual       ctermbg=234  ctermfg=252 cterm=Reverse
-hi Comment      ctermbg=NONE ctermfg=240 cterm=NONE
+hi Comment      ctermbg=NONE ctermfg=242 cterm=NONE
 hi Constant     ctermbg=NONE ctermfg=110 cterm=NONE 
 hi String       ctermbg=NONE ctermfg=110 cterm=NONE 
 hi Character    ctermbg=NONE ctermfg=031 cterm=NONE
