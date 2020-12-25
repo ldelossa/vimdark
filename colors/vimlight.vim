@@ -25,7 +25,7 @@ hi Statement    ctermbg=NONE ctermfg=024 cterm=NONE
 hi PreProc      ctermbg=NONE ctermfg=024 cterm=NONE
 hi Operator     ctermbg=NONE ctermfg=131 cterm=NONE
 hi Type         ctermbg=NONE ctermfg=024 cterm=NONE
-hi Special      ctermbg=NONE ctermfg=138 cterm=NONE 
+hi Special      ctermbg=NONE ctermfg=131 cterm=NONE 
 hi Underlined   ctermbg=NONE ctermfg=NONE cterm=Underline
 hi Ignore       ctermbg=NONE ctermfg=NONE cterm=NONE
 hi Error        ctermbg=NONE ctermfg=196 cterm=NONE
