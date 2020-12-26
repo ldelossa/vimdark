@@ -15,7 +15,7 @@ set background=light
 hi Normal       ctermbg=250  ctermfg=236 cterm=NONE
 hi Question     ctermbg=250  ctermfg=236 cterm=Bold
 hi MoreMsg      ctermbg=250  ctermfg=236 cterm=Bold
-hi Visual       ctermbg=250  ctermfg=024 cterm=Reverse
+hi Visual       ctermbg=110  ctermfg=000 cterm=NONE
 hi Comment      ctermbg=NONE ctermfg=240 cterm=NONE
 hi Constant     ctermbg=NONE ctermfg=024 cterm=NONE 
 hi String       ctermbg=NONE ctermfg=131 cterm=NONE 
@@ -41,7 +41,7 @@ hi VertSplit    ctermbg=238  ctermfg=238 cterm=NONE
 hi Folded       ctermbg=NONE ctermfg=NONE cterm=NONE
 hi FoldColumn   ctermbg=NONE ctermfg=244 cterm=NONE
 hi SignColumn   ctermbg=NONE ctermfg=160 cterm=NONE
-hi IncSearch    ctermbg=110  ctermfg=234 cterm=NONE
+hi IncSearch    ctermbg=110  ctermfg=000 cterm=NONE
 hi LineNr       ctermbg=NONE ctermfg=237 cterm=NONE
 hi CursorLineNr ctermbg=NONE ctermfg=244 cterm=Bold
 hi MatchParen   ctermbg=236  ctermfg=251 cterm=None
@@ -50,7 +50,7 @@ hi PmenuSel     ctermbg=110  ctermfg=236 cterm=NONE
 hi PmenuSbar    ctermbg=253  ctermfg=236 cterm=NONE
 hi PmenuThumb   ctermbg=253  ctermfg=236 cterm=NONE
 hi Search       ctermbg=110  ctermfg=234 cterm=NONE
-hi CursorLine   ctermbg=110  ctermfg=234 cterm=NONE
+hi CursorLine   ctermbg=252  ctermfg=NONE cterm=NONE
 hi SpecialKey   ctermbg=NONE ctermfg=039 cterm=NONE
 hi SpellBad     ctermbg=NONE ctermfg=NONE cterm=NONE
 hi SpellRare    ctermbg=NONE ctermfg=NONE cterm=NONE
@@ -96,9 +96,9 @@ hi cStructure     ctermbg=NONE ctermfg=131
 "CoC
 hi CocInfoFloat ctermbg=None  ctermfg=031 cterm=NONE
 hi CocInfoSign ctermbg=None  ctermfg=031 cterm=NONE
-hi CocListFgYellow ctermbg=None  ctermfg=131 cterm=NONE
-hi CocListBgYellow ctermbg=None  ctermfg=131 cterm=NONE
-hi CocListFgGrey ctermbg=None  ctermfg=243 cterm=NONE
+hi CocListFgYellow ctermbg=252  ctermfg=131 cterm=NONE
+hi CocListBgYellow ctermbg=252  ctermfg=131 cterm=NONE
+hi CocListFgGrey ctermbg=None  ctermfg=236 cterm=NONE
  
 " vim-gitgutter
 highlight GitGutterAdd     ctermfg=028

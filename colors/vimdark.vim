@@ -15,19 +15,18 @@ let g:colors_name = 'vimdark'
 
 set background=dark
 hi Normal       ctermbg=234  ctermfg=246 cterm=NONE
-hi Question     ctermbg=234  ctermfg=244 cterm=Bold
-hi MoreMsg      ctermbg=234  ctermfg=244 cterm=Bold
-hi Visual       ctermbg=234  ctermfg=252 cterm=Reverse
+hi Question     ctermbg=234  ctermfg=246 cterm=Bold
+hi MoreMsg      ctermbg=234  ctermfg=246 cterm=Bold
+hi Visual       ctermbg=110  ctermfg=000 cterm=NONE
 hi Comment      ctermbg=NONE ctermfg=242 cterm=NONE
 hi Constant     ctermbg=NONE ctermfg=110 cterm=NONE 
-hi String       ctermbg=NONE ctermfg=110 cterm=NONE 
+hi String       ctermbg=NONE ctermfg=131 cterm=NONE 
 hi Character    ctermbg=NONE ctermfg=031 cterm=NONE
 hi Identifier   ctermbg=NONE ctermfg=NONE cterm=NONE
 hi Statement    ctermbg=NONE ctermfg=254 cterm=NONE
 hi PreProc      ctermbg=NONE ctermfg=254 cterm=NONE
-hi Operator     ctermbg=NONE ctermfg=110 cterm=NONE
-hi Type         ctermbg=NONE ctermfg=254 cterm=NONE
-" hi Type       ctermbg=234  ctermfg=244 cterm=NONE
+hi Operator     ctermbg=NONE ctermfg=131 cterm=NONE
+hi Type         ctermbg=NONE ctermfg=110 cterm=NONE
 hi Special      ctermbg=NONE ctermfg=138 cterm=NONE 
 hi Underlined   ctermbg=NONE ctermfg=NONE cterm=Underline
 hi Ignore       ctermbg=NONE ctermfg=NONE cterm=NONE
@@ -42,11 +41,11 @@ hi CursorLine   ctermbg=235  ctermfg=NONE cterm=NONE
 hi Directory    ctermbg=234  ctermfg=252 cterm=Underline
 hi VertSplit    ctermbg=238  ctermfg=238 cterm=NONE
 hi Folded       ctermbg=NONE ctermfg=NONE cterm=NONE
-hi FoldColumn   ctermbg=NONE ctermfg=244 cterm=NONE
+hi FoldColumn   ctermbg=NONE ctermfg=246 cterm=NONE
 hi SignColumn   ctermbg=NONE ctermfg=160 cterm=NONE
-hi IncSearch    ctermbg=110  ctermfg=234 cterm=NONE
+hi IncSearch    ctermbg=110  ctermfg=000 cterm=NONE
 hi LineNr       ctermbg=NONE ctermfg=239 cterm=NONE
-hi CursorLineNr ctermbg=NONE ctermfg=244 cterm=Bold
+hi CursorLineNr ctermbg=NONE ctermfg=246 cterm=Bold
 hi MatchParen   ctermbg=NONE ctermfg=NONE cterm=Reverse
 hi Pmenu        ctermbg=235  ctermfg=110 cterm=NONE
 hi PmenuSel     ctermbg=235  ctermfg=110 cterm=Reverse
@@ -66,12 +65,12 @@ hi TabLineFill  ctermbg=238  ctermfg=252 cterm=NONE
 hi TabLineSel   ctermbg=234  ctermfg=015 cterm=Bold
 hi Title        ctermbg=NONE ctermfg=NONE cterm=Bold
 hi WarningMsg   ctermbg=160  ctermfg=000 cterm=NONE
-hi Keyword      ctermbg=NONE ctermfg=131 cterm=NONE
+hi Keyword      ctermbg=NONE ctermfg=110 cterm=NONE
 hi DiffAdd      ctermbg=108  ctermfg=016 cterm=NONE
 hi DiffDelete   ctermbg=131  ctermfg=016 cterm=NONE
 hi DiffChange   ctermbg=110  ctermfg=016 cterm=NONE
 hi DiffText     ctermbg=108  ctermfg=016 cterm=NONE
-hi qfLineNr     ctermbg=NONE ctermfg=244 cterm=Bold
+hi qfLineNr     ctermbg=NONE ctermfg=246 cterm=Bold
 
 "golang
 hi goField              ctermbg=NONE ctermfg=NONE cterm=NONE
@@ -100,5 +99,5 @@ hi cStructure     ctermbg=NONE ctermfg=131
 "CoC
 hi CocInfoFloat ctermbg=None  ctermfg=031 cterm=NONE
 hi CocInfoSign ctermbg=None  ctermfg=031 cterm=NONE
-hi CocListFgYellow ctermbg=None  ctermfg=031 cterm=NONE
-hi CocListBgYellow ctermbg=None  ctermfg=031 cterm=NONE
+hi CocListFgYellow ctermbg=None  ctermfg=110 cterm=NONE
+hi CocListBgYellow ctermbg=None  ctermfg=110 cterm=NONE
