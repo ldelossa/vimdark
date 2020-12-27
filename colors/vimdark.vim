@@ -27,6 +27,7 @@ hi Statement    ctermbg=NONE ctermfg=254 cterm=NONE
 hi PreProc      ctermbg=NONE ctermfg=254 cterm=NONE
 hi Operator     ctermbg=NONE ctermfg=131 cterm=NONE
 hi Type         ctermbg=NONE ctermfg=110 cterm=NONE
+hi Keyword      ctermbg=NONE ctermfg=110 cterm=NONE
 hi Special      ctermbg=NONE ctermfg=138 cterm=NONE 
 hi Underlined   ctermbg=NONE ctermfg=NONE cterm=Underline
 hi Ignore       ctermbg=NONE ctermfg=NONE cterm=NONE
@@ -35,41 +36,33 @@ hi ErrorMsg     ctermbg=NONE ctermfg=196 cterm=NONE
 hi Warning      ctermbg=NONE ctermfg=110 cterm=NONE
 hi WarningMsg   ctermbg=NONE ctermfg=110 cterm=NONE
 hi Todo         ctermbg=NONE ctermfg=138 cterm=NONE
-hi ColorColumn  ctermbg=235  ctermfg=252 cterm=NONE
 hi Cursor       ctermbg=NONE ctermfg=NONE cterm=Reverse
-hi CursorLine   ctermbg=235  ctermfg=NONE cterm=NONE
-hi Directory    ctermbg=234  ctermfg=252 cterm=Underline
-hi VertSplit    ctermbg=238  ctermfg=238 cterm=NONE
+hi CursorLine   ctermbg=242  ctermfg=254 cterm=NONE
+hi Directory    ctermbg=234  ctermfg=254 cterm=Underline
+hi VertSplit    ctermbg=NONE ctermfg=242 cterm=Bold
 hi Folded       ctermbg=NONE ctermfg=NONE cterm=NONE
 hi FoldColumn   ctermbg=NONE ctermfg=246 cterm=NONE
-hi SignColumn   ctermbg=NONE ctermfg=160 cterm=NONE
+hi SignColumn   ctermbg=NONE ctermfg=None cterm=NONE
 hi IncSearch    ctermbg=110  ctermfg=000 cterm=NONE
-hi LineNr       ctermbg=NONE ctermfg=239 cterm=NONE
-hi CursorLineNr ctermbg=NONE ctermfg=246 cterm=Bold
-hi MatchParen   ctermbg=NONE ctermfg=NONE cterm=Reverse
-hi Pmenu        ctermbg=235  ctermfg=110 cterm=NONE
-hi PmenuSel     ctermbg=235  ctermfg=110 cterm=Reverse
-hi PmenuSbar    ctermbg=235  ctermfg=235 cterm=NONE
-hi PmenuThumb   ctermbg=238  ctermfg=238 cterm=NONE
+hi LineNr       ctermbg=NONE ctermfg=242 cterm=NONE
+hi CursorLineNr ctermbg=NONE ctermfg=242 cterm=Bold
+hi MatchParen   ctermbg=110  ctermfg=000 cterm=None
+hi Pmenu        ctermbg=235  ctermfg=254 cterm=NONE
+hi PmenuSel     ctermbg=235  ctermfg=254 cterm=NONE
+hi PmenuSbar    ctermbg=235  ctermfg=254 cterm=NONE
+hi PmenuThumb   ctermbg=235  ctermfg=254 cterm=NONE
 hi Search       ctermbg=110  ctermfg=234 cterm=NONE
-hi CusorLine    ctermbg=110  ctermfg=234 cterm=NONE
-hi SpecialKey   ctermbg=NONE ctermfg=039 cterm=NONE
-hi SpellBad     ctermbg=NONE  ctermfg=NONE cterm=NONE
-hi SpellRare    ctermbg=NONE  ctermfg=NONE cterm=NONE
-hi SpellCap     ctermbg=226  ctermfg=234 cterm=NONE
-hi StatusLine   ctermbg=238  ctermfg=015 cterm=Bold
-hi StatusLineNC ctermbg=238  ctermfg=252 cterm=NONE
-hi WildMenu     ctermbg=235  ctermfg=110 cterm=Reverse
-hi TabLine      ctermbg=238  ctermfg=252 cterm=NONE
-hi TabLineFill  ctermbg=238  ctermfg=252 cterm=NONE
-hi TabLineSel   ctermbg=234  ctermfg=015 cterm=Bold
+hi SpecialKey   ctermbg=NONE ctermfg=024 cterm=NONE
+hi StatusLine   ctermbg=234  ctermfg=254 cterm=Bold
+hi WildMenu     ctermbg=110  ctermfg=235 cterm=Bold
+hi TabLine      ctermbg=235  ctermfg=254 cterm=NONE
+hi TabLineFill  ctermbg=235  ctermfg=254 cterm=NONE
+hi TabLineSel   ctermbg=235  ctermfg=254 cterm=NONE
 hi Title        ctermbg=NONE ctermfg=NONE cterm=Bold
-hi WarningMsg   ctermbg=160  ctermfg=000 cterm=NONE
-hi Keyword      ctermbg=NONE ctermfg=110 cterm=NONE
-hi DiffAdd      ctermbg=108  ctermfg=016 cterm=NONE
-hi DiffDelete   ctermbg=131  ctermfg=016 cterm=NONE
-hi DiffChange   ctermbg=110  ctermfg=016 cterm=NONE
-hi DiffText     ctermbg=108  ctermfg=016 cterm=NONE
+hi DiffAdd      ctermbg=108  ctermfg=000 cterm=NONE
+hi DiffDelete   ctermbg=131  ctermfg=000 cterm=NONE
+hi DiffChange   ctermbg=110  ctermfg=000 cterm=NONE
+hi DiffText     ctermbg=108  ctermfg=000 cterm=NONE
 hi qfLineNr     ctermbg=NONE ctermfg=246 cterm=Bold
 
 "golang
@@ -97,7 +90,7 @@ hi cCustomFunc    ctermbg=NONE ctermfg=131
 hi cStructure     ctermbg=NONE ctermfg=131
 
 "CoC
-hi CocInfoFloat ctermbg=None  ctermfg=031 cterm=NONE
-hi CocInfoSign ctermbg=None  ctermfg=031 cterm=NONE
+hi CocInfoFloat ctermbg=None  ctermfg=110 cterm=NONE
+hi CocInfoSign ctermbg=None  ctermfg=110 cterm=NONE
 hi CocListFgYellow ctermbg=None  ctermfg=110 cterm=NONE
 hi CocListBgYellow ctermbg=None  ctermfg=110 cterm=NONE
