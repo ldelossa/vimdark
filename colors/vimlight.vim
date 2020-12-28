@@ -96,6 +96,6 @@ hi CocListBgYellow ctermbg=252  ctermfg=131 cterm=NONE
 hi CocListFgGrey ctermbg=None  ctermfg=235 cterm=NONE
  
 " vim-gitgutter
-highlight GitGutterAdd     ctermfg=034
+highlight GitGutterAdd     ctermfg=022
 highlight GitGutterChange  ctermfg=226
 highlight GitGutterDelete  ctermfg=131
