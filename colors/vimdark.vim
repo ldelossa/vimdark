@@ -36,7 +36,7 @@ hi ErrorMsg     ctermbg=NONE ctermfg=196 cterm=NONE
 hi Warning      ctermbg=NONE ctermfg=110 cterm=NONE
 hi WarningMsg   ctermbg=NONE ctermfg=110 cterm=NONE
 hi Todo         ctermbg=NONE ctermfg=138 cterm=NONE
-hi Cursor       ctermbg=NONE ctermfg=NONE cterm=Reverse
+hi Cursor       ctermbg=242 ctermfg=254 cterm=NONE
 hi CursorLine   ctermbg=242  ctermfg=254 cterm=NONE
 hi Directory    ctermbg=234  ctermfg=254 cterm=Underline
 hi VertSplit    ctermbg=NONE ctermfg=242 cterm=Bold
@@ -46,7 +46,7 @@ hi SignColumn   ctermbg=NONE ctermfg=None cterm=NONE
 hi IncSearch    ctermbg=110  ctermfg=000 cterm=NONE
 hi LineNr       ctermbg=NONE ctermfg=242 cterm=NONE
 hi CursorLineNr ctermbg=NONE ctermfg=242 cterm=Bold
-hi MatchParen   ctermbg=110  ctermfg=000 cterm=None
+hi MatchParen   ctermbg=110  ctermfg=242 cterm=NONE
 hi Pmenu        ctermbg=235  ctermfg=254 cterm=NONE
 hi PmenuSel     ctermbg=235  ctermfg=254 cterm=NONE
 hi PmenuSbar    ctermbg=235  ctermfg=254 cterm=NONE
