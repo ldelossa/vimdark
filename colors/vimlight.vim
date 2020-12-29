@@ -25,14 +25,14 @@ hi Statement    ctermbg=NONE ctermfg=024 cterm=NONE
 hi PreProc      ctermbg=NONE ctermfg=024 cterm=NONE
 hi Operator     ctermbg=NONE ctermfg=131 cterm=NONE
 hi Type         ctermbg=NONE ctermfg=024 cterm=NONE
-hi Special      ctermbg=NONE ctermfg=138 cterm=NONE 
+hi Special      ctermbg=NONE ctermfg=242 cterm=NONE 
 hi Underlined   ctermbg=NONE ctermfg=NONE cterm=Underline
 hi Ignore       ctermbg=NONE ctermfg=NONE cterm=NONE
 hi Error        ctermbg=NONE ctermfg=196 cterm=NONE
 hi ErrorMsg     ctermbg=NONE ctermfg=196 cterm=NONE
 hi Warning      ctermbg=NONE ctermfg=110 cterm=NONE
 hi WarningMsg   ctermbg=226  ctermfg=000 cterm=NONE
-hi Todo         ctermbg=NONE ctermfg=138 cterm=NONE
+hi Todo         ctermbg=NONE ctermfg=242 cterm=NONE
 hi Cursor       ctermbg=235  ctermfg=250  cterm=None
 hi CursorLine   ctermbg=254  ctermfg=NONE cterm=NONE
 hi Directory    ctermbg=NONE  ctermfg=235 cterm=Underline
