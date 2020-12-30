@@ -28,14 +28,14 @@ hi PreProc      ctermbg=NONE ctermfg=254 cterm=NONE
 hi Operator     ctermbg=NONE ctermfg=131 cterm=NONE
 hi Type         ctermbg=NONE ctermfg=110 cterm=NONE
 hi Keyword      ctermbg=NONE ctermfg=110 cterm=NONE
-hi Special      ctermbg=NONE ctermfg=242 cterm=NONE 
+hi Special      ctermbg=NONE ctermfg=110 cterm=NONE 
 hi Underlined   ctermbg=NONE ctermfg=NONE cterm=Underline
 hi Ignore       ctermbg=NONE ctermfg=NONE cterm=NONE
 hi Error        ctermbg=NONE ctermfg=196 cterm=NONE
 hi ErrorMsg     ctermbg=NONE ctermfg=196 cterm=NONE
 hi Warning      ctermbg=NONE ctermfg=110 cterm=NONE
 hi WarningMsg   ctermbg=NONE ctermfg=110 cterm=NONE
-hi Todo         ctermbg=NONE ctermfg=242 cterm=NONE
+hi Todo         ctermbg=NONE ctermfg=110 cterm=NONE
 hi Cursor       ctermbg=242 ctermfg=254 cterm=NONE
 hi CursorLine   ctermbg=242  ctermfg=254 cterm=NONE
 hi Directory    ctermbg=234  ctermfg=254 cterm=Underline
@@ -94,3 +94,5 @@ hi CocInfoFloat ctermbg=None  ctermfg=110 cterm=NONE
 hi CocInfoSign ctermbg=None  ctermfg=110 cterm=NONE
 hi CocListFgYellow ctermbg=None  ctermfg=110 cterm=NONE
 hi CocListBgYellow ctermbg=None  ctermfg=110 cterm=NONE
+
+hi helpExample ctermbg=NONE ctermfg=110 cterm=NONE
