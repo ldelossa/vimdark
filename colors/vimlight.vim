@@ -45,9 +45,9 @@ hi LineNr       ctermbg=NONE ctermfg=237 cterm=NONE
 hi CursorLineNr ctermbg=NONE ctermfg=244 cterm=Bold
 hi MatchParen   ctermbg=110  ctermfg=000 cterm=None
 hi Pmenu        ctermbg=254  ctermfg=235 cterm=NONE
-hi PmenuSel     ctermbg=254  ctermfg=235 cterm=NONE
+hi PmenuSel     ctermbg=110  ctermfg=235 cterm=Bold
 hi PmenuSbar    ctermbg=254  ctermfg=235 cterm=NONE
-hi PmenuThumb   ctermbg=254  ctermfg=235 cterm=NONE
+hi PmenuThumb   ctermbg=110  ctermfg=235 cterm=NONE
 hi Search       ctermbg=110  ctermfg=234 cterm=NONE
 hi SpecialKey   ctermbg=NONE ctermfg=039 cterm=NONE
 hi StatusLine   ctermbg=254  ctermfg=235 cterm=NONE
