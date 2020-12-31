@@ -50,7 +50,7 @@ hi PmenuSbar    ctermbg=254  ctermfg=235 cterm=NONE
 hi PmenuThumb   ctermbg=110  ctermfg=235 cterm=NONE
 hi Search       ctermbg=110  ctermfg=234 cterm=NONE
 hi SpecialKey   ctermbg=NONE ctermfg=039 cterm=NONE
-hi StatusLine   ctermbg=254  ctermfg=235 cterm=NONE
+hi StatusLine   ctermbg=NONE ctermfg=235 cterm=Bold
 hi StatusLineNC ctermbg=254  ctermfg=235 cterm=NONE
 hi WildMenu     ctermbg=110  ctermfg=235 cterm=Bold
 hi TabLine      ctermbg=254  ctermfg=235 cterm=NONE
@@ -91,8 +91,8 @@ hi cStructure     ctermbg=NONE ctermfg=131
 "CoC
 hi CocInfoFloat ctermbg=None  ctermfg=024 cterm=NONE
 hi CocInfoSign ctermbg=None  ctermfg=024 cterm=NONE
-hi CocListFgYellow ctermbg=252  ctermfg=131 cterm=NONE
-hi CocListBgYellow ctermbg=252  ctermfg=131 cterm=NONE
+hi CocListFgYellow ctermbg=None  ctermfg=131 cterm=NONE
+hi CocListBgYellow ctermbg=None  ctermfg=131 cterm=NONE
 hi CocListFgGrey ctermbg=None  ctermfg=235 cterm=NONE
  
 " vim-gitgutter

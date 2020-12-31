@@ -53,7 +53,7 @@ hi PmenuSbar    ctermbg=235  ctermfg=254 cterm=NONE
 hi PmenuThumb   ctermbg=110  ctermfg=254 cterm=NONE
 hi Search       ctermbg=110  ctermfg=234 cterm=NONE
 hi SpecialKey   ctermbg=NONE ctermfg=024 cterm=NONE
-hi StatusLine   ctermbg=234  ctermfg=254 cterm=Bold
+hi StatusLine   ctermbg=NONE ctermfg=254 cterm=Bold
 hi WildMenu     ctermbg=110  ctermfg=235 cterm=Bold
 hi TabLine      ctermbg=235  ctermfg=254 cterm=NONE
 hi TabLineFill  ctermbg=235  ctermfg=254 cterm=NONE
