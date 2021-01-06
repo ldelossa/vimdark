@@ -96,4 +96,4 @@ hi CocListFgYellow ctermbg=None  ctermfg=110 cterm=NONE
 hi CocListBgYellow ctermbg=None  ctermfg=110 cterm=NONE
 
 hi helpExample ctermbg=NONE ctermfg=110 cterm=NONE
-hi helpCommand ctermbg=NONE ctermfg=024 cterm=NONE
+hi helpCommand ctermbg=NONE ctermfg=110 cterm=NONE
