@@ -43,7 +43,8 @@ hi VertSplit    ctermbg=NONE ctermfg=242 cterm=Bold
 hi Folded       ctermbg=NONE ctermfg=NONE cterm=NONE
 hi FoldColumn   ctermbg=NONE ctermfg=246 cterm=NONE
 hi SignColumn   ctermbg=NONE ctermfg=None cterm=NONE
-hi IncSearch    ctermbg=110  ctermfg=000 cterm=NONE
+hi IncSearch    ctermbg=228  ctermfg=242 cterm=NONE
+hi Search       ctermbg=228  ctermfg=242 cterm=NONE
 hi LineNr       ctermbg=NONE ctermfg=242 cterm=NONE
 hi CursorLineNr ctermbg=NONE ctermfg=242 cterm=Bold
 hi MatchParen   ctermbg=235  ctermfg=246 cterm=NONE
@@ -51,7 +52,6 @@ hi Pmenu        ctermbg=235  ctermfg=254 cterm=NONE
 hi PmenuSel     ctermbg=110  ctermfg=235 cterm=Bold
 hi PmenuSbar    ctermbg=235  ctermfg=254 cterm=NONE
 hi PmenuThumb   ctermbg=110  ctermfg=254 cterm=NONE
-hi Search       ctermbg=110  ctermfg=234 cterm=NONE
 hi SpecialKey   ctermbg=NONE ctermfg=024 cterm=NONE
 hi StatusLine   ctermbg=NONE ctermfg=254 cterm=Bold
 hi WildMenu     ctermbg=110  ctermfg=235 cterm=Bold
