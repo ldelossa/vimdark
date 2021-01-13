@@ -103,3 +103,4 @@ highlight GitGutterDelete  ctermfg=131
 hi helpExample ctermbg=NONE ctermfg=024 cterm=NONE
 hi helpCommand ctermbg=NONE ctermfg=024 cterm=NONE
 
+hi Terminal  ctermbg=235  ctermfg=246 cterm=NONE
