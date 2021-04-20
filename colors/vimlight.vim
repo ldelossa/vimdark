@@ -50,7 +50,7 @@ hi PmenuSel     ctermbg=110  ctermfg=235 cterm=Bold
 hi PmenuSbar    ctermbg=254  ctermfg=235 cterm=NONE
 hi PmenuThumb   ctermbg=110  ctermfg=235 cterm=NONE
 hi SpecialKey   ctermbg=NONE ctermfg=039 cterm=NONE
-hi StatusLine   ctermbg=NONE ctermfg=235 cterm=Bold
+hi StatusLine   ctermbg=254  ctermfg=235 cterm=Bold
 hi StatusLineNC ctermbg=254  ctermfg=235 cterm=NONE
 hi WildMenu     ctermbg=110  ctermfg=235 cterm=Bold
 hi TabLine      ctermbg=254  ctermfg=235 cterm=NONE
