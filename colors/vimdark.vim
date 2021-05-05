@@ -58,7 +58,7 @@ hi StatusLineNC ctermbg=242  ctermfg=235 cterm=NONE
 hi WildMenu     ctermbg=110  ctermfg=235 cterm=Bold
 hi TabLine      ctermbg=235  ctermfg=254 cterm=NONE
 hi TabLineFill  ctermbg=235  ctermfg=254 cterm=NONE
-hi TabLineSel   ctermbg=235  ctermfg=254 cterm=NONE
+hi TabLineSel   ctermbg=229  ctermfg=235 cterm=Bold
 hi Title        ctermbg=NONE ctermfg=NONE cterm=Bold
 hi DiffAdd      ctermbg=108  ctermfg=000 cterm=NONE
 hi DiffDelete   ctermbg=131  ctermfg=000 cterm=NONE
