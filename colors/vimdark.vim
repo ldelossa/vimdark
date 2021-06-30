@@ -99,7 +99,5 @@ hi CocListBgYellow ctermbg=None  ctermfg=110 cterm=NONE
 hi helpExample ctermbg=NONE ctermfg=110 cterm=NONE
 hi helpCommand ctermbg=NONE ctermfg=110 cterm=NONE
 
-hi Terminal  ctermbg=235  ctermfg=246 cterm=NONE
-
 "TreeSitter
 hi TSTypeBuiltin ctermbg=NONE ctermfg=131 cterm=NONE
