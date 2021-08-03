@@ -31,7 +31,7 @@ hi Ignore       ctermbg=NONE ctermfg=NONE cterm=NONE
 hi Error        ctermbg=NONE ctermfg=196 cterm=NONE
 hi ErrorMsg     ctermbg=NONE ctermfg=196 cterm=NONE
 hi Warning      ctermbg=NONE ctermfg=024 cterm=NONE
-hi WarningMsg   ctermbg=226  ctermfg=000 cterm=NONE
+hi WarningMsg   ctermbg=NONE ctermfg=024 cterm=NONE
 hi Todo         ctermbg=NONE ctermfg=024 cterm=NONE
 hi Cursor       ctermbg=235  ctermfg=250  cterm=None
 hi CursorLine   ctermbg=254  ctermfg=NONE cterm=NONE
@@ -105,3 +105,8 @@ hi helpCommand ctermbg=NONE ctermfg=024 cterm=NONE
 
 " TreeSitter
 hi TSTypeBuiltin ctermbg=NONE ctermfg=024 cterm=NONE 
+
+" NVIM-LSP
+hi LspCodeLens ctermbg=NONE ctermfg=024 cterm=italic
+hi LspCodeLensSeparator ctermbg=NONE ctermfg=242 cterm=italic
+

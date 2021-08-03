@@ -101,3 +101,7 @@ hi helpCommand ctermbg=NONE ctermfg=110 cterm=NONE
 
 "TreeSitter
 hi TSTypeBuiltin ctermbg=NONE ctermfg=131 cterm=NONE
+
+" NVIM-LSP
+hi LspCodeLens ctermbg=NONE ctermfg=110 cterm=italic
+hi LspCodeLensSeparator ctermbg=NONE ctermfg=242 cterm=NONE
