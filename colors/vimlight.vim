@@ -40,8 +40,8 @@ hi VertSplit    ctermbg=NONE  ctermfg=235 cterm=Bold
 hi Folded       ctermbg=NONE ctermfg=NONE cterm=NONE
 hi FoldColumn   ctermbg=NONE ctermfg=242 cterm=NONE
 hi SignColumn   ctermbg=NONE ctermfg=None cterm=NONE
-hi IncSearch    ctermbg=228  ctermfg=000 cterm=NONE
-hi Search       ctermbg=228  ctermfg=000 cterm=NONE
+hi IncSearch    ctermbg=227  ctermfg=000 cterm=BOLD
+hi Search       ctermbg=227  ctermfg=000 cterm=BOLD
 hi LineNr       ctermbg=NONE ctermfg=237 cterm=NONE
 hi CursorLineNr ctermbg=NONE ctermfg=244 cterm=Bold
 hi MatchParen   ctermbg=110  ctermfg=000 cterm=None
