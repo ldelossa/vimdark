@@ -105,7 +105,7 @@ hi LspCodeLens ctermbg=None ctermfg=024 cterm=italic guibg=None guifg=#005f87 gu
 hi LspCodeLensSeparator ctermbg=None ctermfg=242 cterm=italic guibg=None guifg=#6c6c6c
 
 " Neovim Indent-Blankline
-hi IndentBlanklineChar ctermfg=248 guifg=#262626 gui=nocombine
+hi IndentBlanklineChar ctermfg=248 guifg=#9e9e9e gui=nocombine
 hi IndentBlanklineSpaceChar ctermfg=242 guifg=#6c6c6c gui=nocombine
 hi IndentBlanklineSpaceCharBlankline ctermfg=242 guifg=#6c6c6c gui=nocombine
 hi IndentBlanklineContextChar ctermfg=242 guifg=#6c6c6c gui=nocombine
