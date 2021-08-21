@@ -109,4 +109,3 @@ hi TSTypeBuiltin ctermbg=NONE ctermfg=024 cterm=NONE
 " NVIM-LSP
 hi LspCodeLens ctermbg=NONE ctermfg=024 cterm=italic
 hi LspCodeLensSeparator ctermbg=NONE ctermfg=242 cterm=italic
-
