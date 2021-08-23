@@ -98,7 +98,18 @@ hi helpExample ctermbg=None ctermfg=024 cterm=None guibg=None guifg=#005f87 gui=
 hi helpCommand ctermbg=None ctermfg=024 cterm=None guibg=None guifg=#005f87 gui=None
 
 " TreeSitter
-hi TSTypeBuiltin ctermbg=None ctermfg=024 cterm=None  guibg=None guifg=#005f87 gui=None
+hi TSConstant ctermbg=None ctermfg=254 cterm=None guibg=None guifg=#000000 gui=None
+hi TSParameter ctermbg=None ctermfg=254 cterm=None guibg=None guifg=#000000 gui=None
+hi TSParameterReference ctermbg=None ctermfg=254 cterm=None guibg=None guifg=#000000 gui=None
+hi TSLabel ctermbg=None ctermfg=254 cterm=None guibg=None guifg=#000000 gui=None
+hi TSPunctBracket ctermbg=None  ctermfg=108 cterm=None guibg=None  guifg=#005f00 gui=None
+hi TSPunctSpecial ctermbg=None  ctermfg=108 cterm=None guibg=None  guifg=#005f00 gui=None
+hi TSInclude ctermbg=None ctermfg=110 cterm=None guibg=None guifg=#005f87 gui=None
+" these seem to be buggy right now with diagnostics
+" hi TSError ctermbg=None ctermfg=196 cterm=None guibg=None guifg=#ff0000 gui=None
+" hi TSException ctermbg=None ctermfg=196 cterm=None guibg=None guifg=#ff0000 gui=None
+" hi TSDanger ctermbg=None ctermfg=196 cterm=None guibg=None guifg=#ff0000 gui=None
+" hi TSWarning ctermbg=None ctermfg=227 cterm=None guibg=None guifg=#ffff5f gui=None
 
 " NVIM-LSP
 hi LspCodeLens ctermbg=None ctermfg=024 cterm=italic guibg=None guifg=#005f87 gui=italic
