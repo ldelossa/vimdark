@@ -44,8 +44,8 @@ hi VertSplit    ctermbg=None ctermfg=242 cterm=Bold         guibg=None guifg=#6c
 hi Folded       ctermbg=None ctermfg=None cterm=None        guibg=None guifg=None gui=None
 hi FoldColumn   ctermbg=None ctermfg=246 cterm=None         guibg=None guifg=#949494 gui=None
 hi SignColumn   ctermbg=None ctermfg=None cterm=None        guibg=None guifg=None gui=None
-hi IncSearch    ctermbg=227  ctermfg=000 cterm=BOLD         guibg=#ffff5f  guifg=000000 gui=Bold
-hi Search       ctermbg=227  ctermfg=000 cterm=BOLD         guibg=#ffff5f  guifg=000000 gui=Bold
+hi IncSearch    ctermbg=227  ctermfg=000 cterm=BOLD         guibg=#ffff5f  guifg=#000000 gui=Bold
+hi Search       ctermbg=227  ctermfg=000 cterm=BOLD         guibg=#ffff5f  guifg=#000000 gui=Bold
 hi LineNr       ctermbg=None ctermfg=242 cterm=None         guibg=None guifg=#6c6c6c gui=None
 hi CursorLineNr ctermbg=None ctermfg=242 cterm=Bold         guibg=None guifg=#6c6c6c gui=Bold
 hi MatchParen   ctermbg=235  ctermfg=246 cterm=None         guibg=#262626  guifg=#949494 gui=None
@@ -61,10 +61,10 @@ hi TabLine      ctermbg=235  ctermfg=254 cterm=None         guibg=#262626  guifg
 hi TabLineFill  ctermbg=235  ctermfg=254 cterm=None         guibg=#262626  guifg=#e4e4e4 gui=None
 hi TabLineSel   ctermbg=229  ctermfg=235 cterm=Bold         guibg=#ffffaf  guifg=#262626 gui=Bold
 hi Title        ctermbg=None ctermfg=None cterm=Bold        guibg=None guifg=None gui=Bold
-hi DiffAdd      ctermbg=108  ctermfg=000 cterm=None         guibg=#87af87  guifg=000000 gui=None
-hi DiffDelete   ctermbg=131  ctermfg=000 cterm=None         guibg=#af5f5f  guifg=000000 gui=None
-hi DiffChange   ctermbg=110  ctermfg=000 cterm=None         guibg=#87afd7  guifg=000000 gui=None
-hi DiffText     ctermbg=108  ctermfg=000 cterm=None         guibg=#87af87  guifg=000000 gui=None
+hi DiffAdd      ctermbg=108  ctermfg=000 cterm=None         guibg=#87af87  guifg=#000000 gui=None
+hi DiffDelete   ctermbg=131  ctermfg=000 cterm=None         guibg=#af5f5f  guifg=#000000 gui=None
+hi DiffChange   ctermbg=110  ctermfg=000 cterm=None         guibg=#87afd7  guifg=#000000 gui=None
+hi DiffText     ctermbg=108  ctermfg=000 cterm=None         guibg=#87af87  guifg=#000000 gui=None
 hi qfLineNr     ctermbg=None ctermfg=246 cterm=Bold         guibg=None guifg=#949494 gui=Bold
 
 "golang
