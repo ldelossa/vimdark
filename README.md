@@ -32,13 +32,11 @@ endfunction
 
 # Go Screenshot
 
-![Alt text](./screenshots/go.png?raw=true "go code")
+![Alt text](./screenshots/vim-dark-go-screenshot.png?raw=true "go code")
+![Alt text](./screenshots/vim-light-go-screenshot.png?raw=true "go code")
 
-# C++
+# C
 
-![Alt text](./screenshots/c++.png?raw=true "vim-fugitive diff")
-
-# Vim-Fugitive Diff
-
-![Alt text](./screenshots/fugitive-diff.png?raw=true "vim-fugitive diff")
+![Alt text](./screenshots/vim-dark-c-screenshot.png?raw=true "vim-fugitive diff")
+![Alt text](./screenshots/vim-light-c-screenshot.png?raw=true "vim-fugitive diff")
 
