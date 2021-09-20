@@ -120,3 +120,7 @@ hi IndentBlanklineChar ctermfg=248 guifg=#9e9e9e gui=nocombine
 hi IndentBlanklineSpaceChar ctermfg=242 guifg=#6c6c6c gui=nocombine
 hi IndentBlanklineSpaceCharBlankline ctermfg=242 guifg=#6c6c6c gui=nocombine
 hi IndentBlanklineContextChar ctermfg=242 guifg=#6c6c6c gui=nocombine
+
+" Treesitter Context
+
+hi TreesitterContext ctermfg=015 ctermbg=254 cterm=italic,bold guifg=#262626 guibg=#ffffff gui=italic,bold

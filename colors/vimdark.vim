@@ -13,6 +13,21 @@ endif
 
 let g:colors_name = 'vimdark'
 
+let g:color_map = { 
+            \ 'alpha':          { 'gui': 000000, 'cterm': 'None'},
+            \ 'black':          { 'gui': '#1c1c1c', 'cterm': 234},
+            \ 'black_light':    { 'gui': '#262626', 'cterm': 235},
+            \ 'grey':           { 'gui': '#949494', 'cterm': 246},
+            \ 'grey_light':     { 'gui': '#6c6c6c', 'cterm': 242},
+            \ 'grey_lightest':  { 'gui': '#e4e4e4', 'cterm': 254},
+            \ 'blue':           { 'gui': '#0087af', 'cterm': 031},
+            \ 'blue_accent':    { 'gui': '#87afd7', 'cterm': 110},
+            \ 'red':            { 'gui': '#af5f5f', 'cterm': 131},
+            \ 'red_light':      { 'gui': '#ff0000', 'cterm': 196},
+            \ 'yellow':         { 'gui': '#ffff5f', 'cterm': 227},
+            \ 'green':          { 'gui': '#ffff5f', 'cterm': 227},
+            \ }
+
 set background=dark
 hi Normal       ctermbg=234  ctermfg=246 cterm=None         guibg=000000  guifg=#949494 
 hi Nontext      ctermbg=234  ctermfg=246 cterm=None         guibg=000000  guifg=#949494 
@@ -54,12 +69,12 @@ hi PmenuSel     ctermbg=110  ctermfg=235 cterm=Bold         guibg=#87afd7  guifg
 hi PmenuSbar    ctermbg=235  ctermfg=254 cterm=None         guibg=#262626  guifg=#e4e4e4 gui=None
 hi PmenuThumb   ctermbg=110  ctermfg=254 cterm=None         guibg=#87afd7  guifg=#e4e4e4 gui=None
 hi SpecialKey   ctermbg=None ctermfg=024 cterm=None         guibg=None guifg=#005f87 gui=None
-hi StatusLine   ctermbg=242  ctermfg=235 cterm=Bold         guibg=#6c6c6c  guifg=#262626 gui=Bold
+hi StatusLine   ctermbg=235  ctermfg=242 cterm=Bold         guibg=#262626  guifg=#767676 gui=Bold
 hi StatusLineNC ctermbg=242  ctermfg=235 cterm=None         guibg=#6c6c6c  guifg=#262626 gui=None
 hi WildMenu     ctermbg=110  ctermfg=235 cterm=Bold         guibg=#87afd7  guifg=#262626 gui=Bold
 hi TabLine      ctermbg=235  ctermfg=254 cterm=None         guibg=#262626  guifg=#e4e4e4 gui=None
 hi TabLineFill  ctermbg=235  ctermfg=254 cterm=None         guibg=#262626  guifg=#e4e4e4 gui=None
-hi TabLineSel   ctermbg=229  ctermfg=235 cterm=Bold         guibg=#ffffaf  guifg=#262626 gui=Bold
+hi TabLineSel   ctermbg=227  ctermfg=235 cterm=Bold         guibg=#ffffaf  guifg=#262626 gui=Bold
 hi Title        ctermbg=None ctermfg=None cterm=Bold        guibg=None guifg=None gui=Bold
 hi DiffAdd      ctermbg=108  ctermfg=000 cterm=None         guibg=#87af87  guifg=#000000 gui=None
 hi DiffDelete   ctermbg=131  ctermfg=000 cterm=None         guibg=#af5f5f  guifg=#000000 gui=None
@@ -117,3 +132,6 @@ hi IndentBlanklineChar ctermfg=235 guifg=#3a3a3a gui=nocombine
 hi IndentBlanklineSpaceChar ctermfg=242 guifg=#6c6c6c gui=nocombine
 hi IndentBlanklineSpaceCharBlankline ctermfg=242 guifg=#6c6c6c gui=nocombine
 hi IndentBlanklineContextChar ctermfg=242 guifg=#6c6c6c gui=nocombine
+
+" Tree Sitter Context
+hi TreesitterContext ctermfg=238 ctermbg=235 cterm=italic,bold guifg=#e4e4e4 guibg=#444444 gui=italic,bold
