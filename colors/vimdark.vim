@@ -69,7 +69,7 @@ hi PmenuSel     ctermbg=110  ctermfg=235 cterm=Bold         guibg=#87afd7  guifg
 hi PmenuSbar    ctermbg=235  ctermfg=254 cterm=None         guibg=#262626  guifg=#e4e4e4 gui=None
 hi PmenuThumb   ctermbg=110  ctermfg=254 cterm=None         guibg=#87afd7  guifg=#e4e4e4 gui=None
 hi SpecialKey   ctermbg=None ctermfg=024 cterm=None         guibg=None guifg=#005f87 gui=None
-hi StatusLine   ctermbg=235  ctermfg=242 cterm=Bold         guibg=#262626  guifg=#767676 gui=Bold
+hi StatusLine   ctermbg=235  ctermfg=254 cterm=Bold         guibg=#262626  guifg=#e4e44 gui=Bold
 hi StatusLineNC ctermbg=242  ctermfg=235 cterm=None         guibg=#6c6c6c  guifg=#262626 gui=None
 hi WildMenu     ctermbg=110  ctermfg=235 cterm=Bold         guibg=#87afd7  guifg=#262626 gui=Bold
 hi TabLine      ctermbg=235  ctermfg=254 cterm=None         guibg=#262626  guifg=#e4e4e4 gui=None
@@ -135,3 +135,8 @@ hi IndentBlanklineContextChar ctermfg=242 guifg=#6c6c6c gui=nocombine
 
 " Tree Sitter Context
 hi TreesitterContext ctermfg=238 ctermbg=235 cterm=italic,bold guifg=#e4e4e4 guibg=#444444 gui=italic,bold
+
+" gitgutter/gitsigns
+highlight GitGutterAdd     ctermfg=022 guifg=#005f00
+highlight GitGutterChange  ctermfg=226 guifg=#ffff00
+highlight GitGutterDelete  ctermfg=131 guibg=None guifg=#af5f5f cterm=None

@@ -91,7 +91,7 @@ hi cStructure     ctermbg=None ctermfg=131 guibg=None guifg=#af5f5f cterm=None
 
 " vim-gitgutter
 highlight GitGutterAdd     ctermfg=022 guifg=#005f00
-highlight GitGutterChange  ctermfg=226 guifg=#ffff0
+highlight GitGutterChange  ctermfg=226 guifg=#ffff00
 highlight GitGutterDelete  ctermfg=131 guibg=None guifg=#af5f5f cterm=None
 
 hi helpExample ctermbg=None ctermfg=024 cterm=None guibg=None guifg=#005f87 gui=None
