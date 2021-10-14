@@ -25,7 +25,7 @@ let g:color_map = {
             \ 'red':            { 'gui': '#af5f5f', 'cterm': 131},
             \ 'red_light':      { 'gui': '#ff0000', 'cterm': 196},
             \ 'yellow':         { 'gui': '#ffff5f', 'cterm': 227},
-            \ 'green':          { 'gui': '#ffff5f', 'cterm': 227},
+            \ 'green':          { 'gui': '#87af87', 'cterm': 108},
             \ }
 
 set background=dark

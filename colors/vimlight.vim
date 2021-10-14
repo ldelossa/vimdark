@@ -11,9 +11,26 @@ endif
 
 let g:colors_name = 'vimlight'
 
+let g:color_map = { 
+            \ 'alpha':          { 'gui': 000000, 'cterm': 'None'},
+            \ 'black_light':    { 'gui': '#262626', 'cterm': 235},
+            \ 'black-lighter':  { 'gui': '#3a3a3a', 'cterm': 237},
+            \ 'white':          { 'gui': '#bcbcbc', 'cterm': 250},
+            \ 'grey_light':     { 'gui': '#6c6c6c', 'cterm': 242},
+            \ 'grey_lighter':   { 'gui': '#808080', 'cterm': 244},
+            \ 'grey_contrast':  { 'gui': '#a8a8a8', 'cterm': 248},
+            \ 'grey_lightest':  { 'gui': '#e4e4e4', 'cterm': 254},
+            \ 'blue':           { 'gui': '#005f87', 'cterm': 024},
+            \ 'blue_accent':    { 'gui': '#87afd7', 'cterm': 110},
+            \ 'red':            { 'gui': '#af5f5f', 'cterm': 131},
+            \ 'red_lighter':    { 'gui': '#ff0000', 'cterm': 196},
+            \ 'yellow':         { 'gui': '#ffff5f', 'cterm': 227},
+            \ 'green':          { 'gui': '#87af87', 'cterm': 108},
+            \ }
+
 set background=light
 hi Normal       ctermbg=250  ctermfg=235 cterm=None         guibg=000000  guifg=#262626 gui=None
-hi NonText       ctermbg=250  ctermfg=235 cterm=None         guibg=000000  guifg=#262626 gui=None
+hi NonText      ctermbg=250  ctermfg=235 cterm=None         guibg=000000  guifg=#262626 gui=None
 hi Question     ctermbg=250  ctermfg=235 cterm=Bold         guibg=#bcbcbc  guifg=#262626 gui=Bold
 hi MoreMsg      ctermbg=250  ctermfg=235 cterm=Bold         guibg=#bcbcbc  guifg=#262626 gui=Bold
 hi Visual       ctermbg=110  ctermfg=000 cterm=None         guibg=#87afd7  guifg=#000000 gui=None
