@@ -30,6 +30,7 @@ let g:color_map = {
 
 set background=light
 hi Normal       ctermbg=250  ctermfg=235 cterm=None         guibg=000000  guifg=#262626 gui=None
+hi NormalFloat  ctermbg=250  ctermfg=235 cterm=None         guibg=000000  guifg=#262626 gui=None
 hi NonText      ctermbg=250  ctermfg=235 cterm=None         guibg=000000  guifg=#262626 gui=None
 hi Question     ctermbg=250  ctermfg=235 cterm=Bold         guibg=#bcbcbc  guifg=#262626 gui=Bold
 hi MoreMsg      ctermbg=250  ctermfg=235 cterm=Bold         guibg=#bcbcbc  guifg=#262626 gui=Bold
@@ -46,8 +47,8 @@ hi Type         ctermbg=None ctermfg=024 cterm=None         guibg=None guifg=#00
 hi Special      ctermbg=None ctermfg=024 cterm=None         guibg=None guifg=#005f87 gui=None 
 hi Underlined   ctermbg=None ctermfg=None cterm=Underline   guibg=None guifg=None gui=Underline
 hi Ignore       ctermbg=None ctermfg=None cterm=None        guibg=None guifg=None gui=None
-hi Error        ctermbg=None ctermfg=196 cterm=None         guibg=None guifg=#ff0000 gui=None
-hi ErrorMsg     ctermbg=None ctermfg=196 cterm=None         guibg=None guifg=#ff0000 gui=None
+hi Error        ctermbg=131  ctermfg=246 cterm=None         guibg=#af5f5f guifg=#e4e4e4 gui=None
+hi ErrorMsg     ctermbg=131  ctermfg=246 cterm=None         guibg=#af5f5f guifg=#e4e4e4 gui=None
 hi Warning      ctermbg=None ctermfg=024 cterm=None         guibg=None guifg=#005f87 gui=None
 hi WarningMsg   ctermbg=None ctermfg=024 cterm=None         guibg=None guifg=#005f87 gui=None
 hi Todo         ctermbg=None ctermfg=024 cterm=None         guibg=None guifg=#005f87 gui=None
@@ -115,7 +116,7 @@ hi helpExample ctermbg=None ctermfg=024 cterm=None guibg=None guifg=#005f87 gui=
 hi helpCommand ctermbg=None ctermfg=024 cterm=None guibg=None guifg=#005f87 gui=None
 
 " TreeSitter
-hi TSConstant ctermbg=None ctermfg=254 cterm=None guibg=None guifg=#000000 gui=None
+hi TSConstant ctermbg=None ctermfg=254 cterm=None guibg=None guifg=#af5f5f gui=None
 hi TSParameter ctermbg=None ctermfg=254 cterm=None guibg=None guifg=#000000 gui=None
 hi TSParameterReference ctermbg=None ctermfg=254 cterm=None guibg=None guifg=#000000 gui=None
 hi TSLabel ctermbg=None ctermfg=254 cterm=None guibg=None guifg=#000000 gui=None
@@ -141,3 +142,6 @@ hi IndentBlanklineContextChar ctermfg=242 guifg=#6c6c6c gui=nocombine
 " Treesitter Context
 
 hi TreesitterContext ctermfg=015 ctermbg=254 cterm=italic,bold guifg=#262626 guibg=#ffffff gui=italic,bold
+
+" Calltree
+hi CallTreeSymbolHL ctermfg=015 ctermbg=110 cterm=italic,bold guifg=#262626 guibg=#87afd7 gui=italic,bold

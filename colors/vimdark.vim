@@ -30,6 +30,7 @@ let g:color_map = {
 
 set background=dark
 hi Normal       ctermbg=234  ctermfg=246 cterm=None         guibg=000000  guifg=#949494 
+hi NormalFloat  ctermbg=234  ctermfg=246 cterm=None         guibg=000000  guifg=#949494 
 hi Nontext      ctermbg=234  ctermfg=246 cterm=None         guibg=000000  guifg=#949494 
 hi Question     ctermbg=234  ctermfg=246 cterm=Bold         guibg=#1c1c1c  guifg=#949494 gui=Bold
 hi MoreMsg      ctermbg=234  ctermfg=246 cterm=Bold         guibg=#1c1c1c  guifg=#949494 gui=Bold
@@ -47,8 +48,8 @@ hi Keyword      ctermbg=None ctermfg=110 cterm=None         guibg=None guifg=#87
 hi Special      ctermbg=None ctermfg=110 cterm=None         guibg=None guifg=#87afd7 gui=None
 hi Underlined   ctermbg=None ctermfg=None cterm=Underline   guibg=None guifg=None gui=Underline
 hi Ignore       ctermbg=None ctermfg=None cterm=None        guibg=None guifg=None gui=None
-hi Error        ctermbg=None ctermfg=196 cterm=None         guibg=None guifg=#ff0000 gui=None
-hi ErrorMsg     ctermbg=None ctermfg=196 cterm=None         guibg=None guifg=#ff0000 gui=None
+hi Error        ctermbg=131  ctermfg=246 cterm=None         guibg=#af5f5f guifg=#e4e4e4 gui=None
+hi ErrorMsg     ctermbg=131  ctermfg=246 cterm=None         guibg=#af5f5f guifg=#e4e4e4 gui=None
 hi Warning      ctermbg=None ctermfg=110 cterm=None         guibg=None guifg=#87afd7 gui=None
 hi WarningMsg   ctermbg=None ctermfg=110 cterm=None         guibg=None guifg=#87afd7 gui=None
 hi Todo         ctermbg=None ctermfg=110 cterm=None         guibg=None guifg=#87afd7 gui=None
@@ -135,6 +136,9 @@ hi IndentBlanklineContextChar ctermfg=242 guifg=#6c6c6c gui=nocombine
 
 " Tree Sitter Context
 hi TreesitterContext ctermfg=238 ctermbg=235 cterm=italic,bold guifg=#e4e4e4 guibg=#444444 gui=italic,bold
+
+" Calltree 
+hi CallTreeSymbolHL ctermfg=238 ctermbg=None cterm=italic,bold guifg=#87afd7 guibg=None gui=italic,bold
 
 " gitgutter/gitsigns
 highlight GitGutterAdd     ctermfg=022 guifg=#005f00
