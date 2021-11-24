@@ -13,20 +13,21 @@ endif
 
 let g:colors_name = 'vimdark'
 
-let g:color_map = { 
-            \ 'alpha':          { 'gui': 000000, 'cterm': 'None'},
-            \ 'black':          { 'gui': '#1c1c1c', 'cterm': 234},
-            \ 'black_light':    { 'gui': '#262626', 'cterm': 235},
-            \ 'grey':           { 'gui': '#949494', 'cterm': 246},
-            \ 'grey_light':     { 'gui': '#6c6c6c', 'cterm': 242},
-            \ 'grey_lightest':  { 'gui': '#e4e4e4', 'cterm': 254},
-            \ 'blue':           { 'gui': '#0087af', 'cterm': 031},
-            \ 'blue_accent':    { 'gui': '#87afd7', 'cterm': 110},
-            \ 'red':            { 'gui': '#af5f5f', 'cterm': 131},
-            \ 'red_light':      { 'gui': '#ff0000', 'cterm': 196},
-            \ 'yellow':         { 'gui': '#ffff5f', 'cterm': 227},
-            \ 'green':          { 'gui': '#87af87', 'cterm': 108},
-            \ }
+" alpha:          000000 None
+" black:          #1c1c1c 234
+" black_light:    #262626 235
+" grey:           #949494 246
+" grey_light:     #6c6c6c 242
+" grey_lightest:  #e4e4e4 254
+" blue:           #0087af 031
+" blue_accent:    #87afd7 110
+" red:            #af5f5f 131
+" red_light:      #ff0000 196
+" yellow:         #ffff5f 227
+" green:          #87af87 108
+" orange:         #9b885c
+" purple:         #988ACF
+" cyan:           #4DC5C6
 
 set background=dark
 hi Normal       ctermbg=234  ctermfg=246 cterm=None         guibg=000000  guifg=#949494 
@@ -48,20 +49,20 @@ hi Keyword      ctermbg=None ctermfg=110 cterm=None         guibg=None guifg=#87
 hi Special      ctermbg=None ctermfg=110 cterm=None         guibg=None guifg=#87afd7 gui=None
 hi Underlined   ctermbg=None ctermfg=None cterm=Underline   guibg=None guifg=None gui=Underline
 hi Ignore       ctermbg=None ctermfg=None cterm=None        guibg=None guifg=None gui=None
-hi Error        ctermbg=131  ctermfg=246 cterm=None         guibg=#af5f5f guifg=#e4e4e4 gui=None
+hi Error        ctermbg=None ctermfg=196 cterm=None         guibg=None guifg=#ff0000 gui=None
 hi ErrorMsg     ctermbg=131  ctermfg=246 cterm=None         guibg=#af5f5f guifg=#e4e4e4 gui=None
 hi Warning      ctermbg=None ctermfg=110 cterm=None         guibg=None guifg=#87afd7 gui=None
 hi WarningMsg   ctermbg=None ctermfg=110 cterm=None         guibg=None guifg=#87afd7 gui=None
 hi Todo         ctermbg=None ctermfg=110 cterm=None         guibg=None guifg=#87afd7 gui=None
 hi Cursor       ctermbg=242 ctermfg=254 cterm=None          guibg=#6c6c6c guifg=#e4e4e4 gui=None
-hi CursorLine   ctermbg=242  ctermfg=254 cterm=None         guibg=#6c6c6c  guifg=#e4e4e4 gui=None
+hi CursorLine   ctermbg=242  ctermfg=254 cterm=None         guibg=#262626  guifg=#e4e4e4 gui=Bold
 hi Directory    ctermbg=234  ctermfg=254 cterm=Underline    guibg=#1c1c1c  guifg=#e4e4e4 gui=Underline
 hi VertSplit    ctermbg=None ctermfg=242 cterm=Bold         guibg=None guifg=#6c6c6c gui=Bold
 hi Folded       ctermbg=None ctermfg=None cterm=None        guibg=None guifg=None gui=None
 hi FoldColumn   ctermbg=None ctermfg=246 cterm=None         guibg=None guifg=#949494 gui=None
 hi SignColumn   ctermbg=None ctermfg=None cterm=None        guibg=None guifg=None gui=None
-hi IncSearch    ctermbg=227  ctermfg=000 cterm=BOLD         guibg=#ffff5f  guifg=#000000 gui=Bold
-hi Search       ctermbg=227  ctermfg=000 cterm=BOLD         guibg=#ffff5f  guifg=#000000 gui=Bold
+hi IncSearch    ctermbg=227  ctermfg=000 cterm=BOLD         guibg=#9b885c  guifg=#ffffff gui=Bold
+hi Search       ctermbg=227  ctermfg=000 cterm=BOLD         guibg=#9b885c  guifg=#ffffff gui=Bold
 hi LineNr       ctermbg=None ctermfg=242 cterm=None         guibg=None guifg=#6c6c6c gui=None
 hi CursorLineNr ctermbg=None ctermfg=242 cterm=Bold         guibg=None guifg=#6c6c6c gui=Bold
 hi MatchParen   ctermbg=235  ctermfg=246 cterm=None         guibg=#262626  guifg=#949494 gui=None
@@ -144,3 +145,24 @@ hi CallTreeSymbolHL ctermfg=238 ctermbg=None cterm=italic,bold guifg=#87afd7 gui
 highlight GitGutterAdd     ctermfg=022 guifg=#005f00
 highlight GitGutterChange  ctermfg=226 guifg=#ffff00
 highlight GitGutterDelete  ctermfg=131 guibg=None guifg=#af5f5f cterm=None
+
+"calltree
+hi CTSymbol                 guifg=#87afd7 gui=underline
+hi CTSymbolDetail           ctermfg=024 cterm=italic guifg=#988ACF gui=italic
+hi CTSymbolJump             ctermfg=015 ctermbg=110 cterm=italic,bold,underline   guifg=#464646 guibg=#87afd7 gui=italic,bold
+hi CTSymbolJumpRefs         ctermfg=015 ctermbg=110 cterm=italic,bold,underline   guifg=#464646 guibg=#9b885c gui=italic,bold
+hi CTParameterReference     guifg=#4DC5C6 guibg=None
+hi CTURI                    guifg=#988ACF guibg=None
+hi CTNamespace              guifg=#87af87 guibg=None
+hi CTMethod                 guifg=#0087af guibg=None
+hi CTField                  guifg=#0087af guibg=None
+hi CTConstructor            guifg=#4DC5C6 guibg=None
+hi CTType                   guifg=#9b885c guibg=None
+hi CTFunction               guifg=#988ACF guibg=None
+hi CTConstant               guifg=#0087af guibg=None
+hi CTString                 guifg=#af5f5f guibg=None
+hi CTNumber                 guifg=#9b885c guibg=None
+hi CTBoolean                guifg=#0087af guibg=None
+hi CTConstant               guifg=#0087af guibg=None
+hi CTOperator               guifg=#988ACF guibg=None
+hi CTParameter              guifg=#988ACF guibg=None
