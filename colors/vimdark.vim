@@ -138,31 +138,31 @@ hi IndentBlanklineContextChar ctermfg=242 guifg=#6c6c6c gui=nocombine
 " Tree Sitter Context
 hi TreesitterContext ctermfg=238 ctermbg=235 cterm=italic,bold guifg=#e4e4e4 guibg=#444444 gui=italic,bold
 
-" Calltree 
-hi CallTreeSymbolHL ctermfg=238 ctermbg=None cterm=italic,bold guifg=#87afd7 guibg=None gui=italic,bold
-
 " gitgutter/gitsigns
-highlight GitGutterAdd     ctermfg=022 guifg=#005f00
-highlight GitGutterChange  ctermfg=226 guifg=#ffff00
-highlight GitGutterDelete  ctermfg=131 guibg=None guifg=#af5f5f cterm=None
+hi GitGutterAdd     ctermfg=022 guifg=#005f00
+hi GitGutterChange  ctermfg=226 guifg=#ffff00
+hi GitGutterDelete  ctermfg=131 guibg=None guifg=#af5f5f cterm=None
 
-"calltree
-hi CTSymbol                 guifg=#87afd7 gui=underline
-hi CTSymbolDetail           ctermfg=024 cterm=italic guifg=#988ACF gui=italic
-hi CTSymbolJump             ctermfg=015 ctermbg=110 cterm=italic,bold,underline   guifg=#464646 guibg=#87afd7 gui=italic,bold
-hi CTSymbolJumpRefs         ctermfg=015 ctermbg=110 cterm=italic,bold,underline   guifg=#464646 guibg=#9b885c gui=italic,bold
-hi CTParameterReference     guifg=#4DC5C6 guibg=None
-hi CTURI                    guifg=#988ACF guibg=None
-hi CTNamespace              guifg=#87af87 guibg=None
-hi CTMethod                 guifg=#0087af guibg=None
-hi CTField                  guifg=#0087af guibg=None
-hi CTConstructor            guifg=#4DC5C6 guibg=None
-hi CTType                   guifg=#9b885c guibg=None
-hi CTFunction               guifg=#988ACF guibg=None
-hi CTConstant               guifg=#0087af guibg=None
-hi CTString                 guifg=#af5f5f guibg=None
-hi CTNumber                 guifg=#9b885c guibg=None
-hi CTBoolean                guifg=#0087af guibg=None
-hi CTConstant               guifg=#0087af guibg=None
-hi CTOperator               guifg=#988ACF guibg=None
-hi CTParameter              guifg=#988ACF guibg=None
+" litee
+hi LTBoolean                guifg=#0087af guibg=None
+hi LTConstant               guifg=#0087af guibg=None
+hi LTConstructor            guifg=#4DC5C6 guibg=None
+hi LTField                  guifg=#0087af guibg=None
+hi LTFunction               guifg=#988ACF guibg=None
+hi LTMethod                 guifg=#0087af guibg=None
+hi LTNamespace              guifg=#87af87 guibg=None
+hi LTNumber                 guifg=#9b885c guibg=None
+hi LTOperator               guifg=#988ACF guibg=None
+hi LTParameter              guifg=#988ACF guibg=None
+hi LTParameterReference     guifg=#4DC5C6 guibg=None
+hi LTString                 guifg=#af5f5f guibg=None
+hi LTSymbol                 guifg=#87afd7 gui=underline
+hi LTSymbolDetail           ctermfg=024 cterm=italic guifg=#988ACF gui=italic
+hi LTSymbolJump             ctermfg=015 ctermbg=110 cterm=italic,bold,underline   guifg=#464646 guibg=#87afd7 gui=italic,bold
+hi LTSymbolJumpRefs         ctermfg=015 ctermbg=110 cterm=italic,bold,underline   guifg=#464646 guibg=#9b885c gui=italic,bold
+hi LTType                   guifg=#9b885c guibg=None
+hi LTURI                    guifg=#988ACF guibg=None
+hi LTIndentGuide            guifg=None    guibg=None
+hi LTExpandedGuide          guifg=None    guibg=None
+hi LTCollapsedGuide         guifg=None    guibg=None
+hi LTSelectFiletree ctermbg=131  ctermfg=246 cterm=None guibg=#af5f5f guifg=#e4e4e4 gui=None

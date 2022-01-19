@@ -162,23 +162,26 @@ hi TreesitterContext ctermfg=015 ctermbg=254 cterm=italic,bold guifg=#464646 gui
 " purple:           #806CCF
 " cyan;             #268889
 
-" Calltree
-hi CTSymbol                 guifg=#806CCF gui=underline
-hi CTSymbolDetail           ctermfg=024 cterm=italic guifg=#005f87 gui=italic
-hi CTSymbolJump             ctermfg=015 ctermbg=110 cterm=italic,bold,underline   guifg=#464646 guibg=#87afd7 gui=italic,bold
-hi CTSymbolJumpRefs         ctermfg=015 ctermbg=110 cterm=italic,bold,underline   guifg=#464646 guibg=#9b885c gui=italic,bold
-hi CTParameterReference     guifg=#268889 guibg=None
-hi CTURI                    guifg=#806CCF guibg=None
-hi CTNamespace              guifg=#87af87 guibg=None
-hi CTMethod                 guifg=#005f87 guibg=None
-hi CTField                  guifg=#005f87 guibg=None
-hi CTConstructor            guifg=#9b885c guibg=None
-hi CTType                   guifg=#268889 guibg=None
-hi CTFunction               guifg=#806CCF guibg=None
-hi CTConstant               guifg=#005f87 guibg=None
-hi CTString                 guifg=#af5f5f guibg=None
-hi CTNumber                 guifg=#9b885c guibg=None
-hi CTBoolean                guifg=#005f87 guibg=None
-hi CTConstant               guifg=#005f87 guibg=None
-hi CTOperator               guifg=#806CCF guibg=None
-hi CTParameter              guifg=#806CCF guibg=None
+" litee
+hi LTBoolean                guifg=#005f87 guibg=None
+hi LTConstant               guifg=#005f87 guibg=None
+hi LTConstructor            guifg=#9b885c guibg=None
+hi LTField                  guifg=#005f87 guibg=None
+hi LTFunction               guifg=#806CCF guibg=None
+hi LTMethod                 guifg=#005f87 guibg=None
+hi LTNamespace              guifg=#87af87 guibg=None
+hi LTNumber                 guifg=#9b885c guibg=None
+hi LTOperator               guifg=#806CCF guibg=None
+hi LTParameter              guifg=#806CCF guibg=None
+hi LTParameterReference     guifg=#268889 guibg=None
+hi LTString                 guifg=#af5f5f guibg=None
+hi LTSymbol                 guifg=#806CCF gui=underline
+hi LTSymbolDetail           ctermfg=024 cterm=italic guifg=#005f87 gui=italic
+hi LTSymbolJump             ctermfg=015 ctermbg=110 cterm=italic,bold,underline   guifg=#464646 guibg=#87afd7 gui=italic,bold
+hi LTSymbolJumpRefs         ctermfg=015 ctermbg=110 cterm=italic,bold,underline   guifg=#464646 guibg=#9b885c gui=italic,bold
+hi LTType                   guifg=#268889 guibg=None
+hi LTURI                    guifg=#806CCF guibg=None
+hi LTIndentGuide            guifg=None    guibg=None
+hi LTExpandedGuide          guifg=None    guibg=None
+hi LTCollapsedGuide         guifg=None    guibg=None
+hi LTSelectFiletree ctermbg=131  ctermfg=246 cterm=None guibg=#af5f5f guifg=#e4e4e4 gui=None
