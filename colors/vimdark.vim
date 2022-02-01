@@ -26,6 +26,7 @@ let g:colors_name = 'vimdark'
 " yellow:         #ffff5f 227
 " green:          #87af87 108
 " orange:         #9b885c
+" orange-alt:     #d7934f
 " purple:         #988ACF
 " cyan:           #4DC5C6
 
@@ -61,8 +62,8 @@ hi VertSplit    ctermbg=None ctermfg=242 cterm=Bold         guibg=None guifg=#6c
 hi Folded       ctermbg=None ctermfg=None cterm=None        guibg=None guifg=None gui=None
 hi FoldColumn   ctermbg=None ctermfg=246 cterm=None         guibg=None guifg=#949494 gui=None
 hi SignColumn   ctermbg=None ctermfg=None cterm=None        guibg=None guifg=None gui=None
-hi IncSearch    ctermbg=227  ctermfg=000 cterm=BOLD         guibg=#9b885c  guifg=#ffffff gui=Bold
-hi Search       ctermbg=227  ctermfg=000 cterm=BOLD         guibg=#9b885c  guifg=#ffffff gui=Bold
+hi IncSearch    ctermbg=227  ctermfg=000 cterm=BOLD         guibg=#d7934f  guifg=#ffffff gui=Bold
+hi Search       ctermbg=227  ctermfg=000 cterm=BOLD         guibg=#d7934f  guifg=#ffffff gui=Bold
 hi LineNr       ctermbg=None ctermfg=242 cterm=None         guibg=None guifg=#6c6c6c gui=None
 hi CursorLineNr ctermbg=None ctermfg=242 cterm=Bold         guibg=None guifg=#6c6c6c gui=Bold
 hi MatchParen   ctermbg=235  ctermfg=246 cterm=None         guibg=#262626  guifg=#949494 gui=None

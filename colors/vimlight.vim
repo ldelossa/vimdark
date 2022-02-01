@@ -60,8 +60,8 @@ hi VertSplit    ctermbg=None  ctermfg=235 cterm=Bold        guibg=None  guifg=#4
 hi Folded       ctermbg=None ctermfg=None cterm=None        guibg=None guifg=None gui=None
 hi FoldColumn   ctermbg=None ctermfg=242 cterm=None         guibg=None guifg=#6c6c6c gui=None
 hi SignColumn   ctermbg=None ctermfg=None cterm=None        guibg=None guifg=None gui=None
-hi IncSearch    ctermbg=227  ctermfg=000 cterm=BOLD         guibg=#9b885c  guifg=#ffffff gui=Bold
-hi Search       ctermbg=227  ctermfg=000 cterm=BOLD         guibg=#9b885c  guifg=#ffffff gui=Bold
+hi IncSearch    ctermbg=227  ctermfg=000 cterm=BOLD         guibg=#806CCF  guifg=#ffffff gui=Bold
+hi Search       ctermbg=227  ctermfg=000 cterm=BOLD         guibg=#806CCF  guifg=#ffffff gui=Bold
 hi LineNr       ctermbg=None ctermfg=237 cterm=None         guibg=None guifg=#3a3a3a gui=None
 hi CursorLineNr ctermbg=None ctermfg=244 cterm=Bold         guibg=None guifg=#808080 gui=Bold
 hi MatchParen   ctermbg=110  ctermfg=000 cterm=None         guibg=#87afd7  guifg=#000000 gui=None
