@@ -120,11 +120,6 @@ hi TSLabel ctermbg=None ctermfg=254 cterm=None guibg=None guifg=#e4e4e4 gui=None
 hi TSPunctBracket ctermbg=None  ctermfg=108 cterm=None guibg=None  guifg=#87af87 gui=None
 hi TSPunctSpecial ctermbg=None  ctermfg=108 cterm=None guibg=None  guifg=#87af87 gui=None
 hi TSInclude ctermbg=None ctermfg=110 cterm=None guibg=None guifg=#87afd7 gui=None
-" these seem to be buggy right now with diagnostics
-"hi TSError ctermbg=None ctermfg=196 cterm=None guibg=None guifg=#ff0000 gui=None
-"hi TSException ctermbg=None ctermfg=196 cterm=None guibg=None guifg=#ff0000 gui=None
-"hi TSDanger ctermbg=None ctermfg=196 cterm=None guibg=None guifg=#ff0000 gui=None
-"hi TSWarning ctermbg=None ctermfg=227 cterm=None guibg=None guifg=#ffff5f gui=None
 
 " NVIM-LSP
 hi LspCodeLens ctermbg=None ctermfg=110 cterm=italic guibg=None guifg=#87afd7 gui=italic
@@ -136,13 +131,15 @@ hi IndentBlanklineSpaceChar ctermfg=242 guifg=#6c6c6c gui=nocombine
 hi IndentBlanklineSpaceCharBlankline ctermfg=242 guifg=#6c6c6c gui=nocombine
 hi IndentBlanklineContextChar ctermfg=242 guifg=#6c6c6c gui=nocombine
 
-" Tree Sitter Context
-hi TreesitterContext ctermfg=238 ctermbg=235 cterm=italic,bold guifg=#e4e4e4 guibg=#444444 gui=italic,bold
-
-" gitgutter/gitsigns
+" gitgutter
 hi GitGutterAdd     ctermfg=022 guifg=#005f00
 hi GitGutterChange  ctermfg=226 guifg=#ffff00
 hi GitGutterDelete  ctermfg=131 guibg=None guifg=#af5f5f cterm=None
+
+" gitsigns
+hi GitSignsAdd     ctermfg=022 guifg=#005f00
+hi GitSignsChange  ctermfg=226 guifg=#ffff00
+hi GitSignsDelete  ctermfg=131 guibg=None guifg=#af5f5f cterm=None
 
 " litee
 hi LTBoolean                guifg=#0087af guibg=None
@@ -166,4 +163,5 @@ hi LTURI                    guifg=#988ACF guibg=None
 hi LTIndentGuide            guifg=None    guibg=None
 hi LTExpandedGuide          guifg=None    guibg=None
 hi LTCollapsedGuide         guifg=None    guibg=None
-hi LTSelectFiletree ctermbg=131  ctermfg=246 cterm=None guibg=#af5f5f guifg=#e4e4e4 gui=None
+hi LTSelectFiletree         ctermbg=131  ctermfg=246 cterm=None guibg=#af5f5f guifg=#e4e4e4 gui=None
+hi def link LTCurrentFileFiletree Visual

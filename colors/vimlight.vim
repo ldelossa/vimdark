@@ -108,10 +108,15 @@ hi cppSTLios      ctermbg=None ctermfg=131 guibg=None guifg=#af5f5f cterm=None
 hi cCustomFunc    ctermbg=None ctermfg=131 guibg=None guifg=#af5f5f cterm=None
 hi cStructure     ctermbg=None ctermfg=131 guibg=None guifg=#af5f5f cterm=None
 
-" vim-gitgutter
+" gitgutter
 highlight GitGutterAdd     ctermfg=022 guifg=#005f00
 highlight GitGutterChange  ctermfg=226 guifg=#ffff00
 highlight GitGutterDelete  ctermfg=131 guibg=None guifg=#af5f5f cterm=None
+
+" gitsigns
+hi GitSignsAdd     ctermfg=022 guifg=#005f00
+hi GitSignsChange  ctermfg=226 guifg=#ffff00
+hi GitSignsDelete  ctermfg=131 guibg=None guifg=#af5f5f cterm=None
 
 hi helpExample ctermbg=None ctermfg=024 cterm=None guibg=None guifg=#005f87 gui=None
 hi helpCommand ctermbg=None ctermfg=024 cterm=None guibg=None guifg=#005f87 gui=None
@@ -124,11 +129,6 @@ hi TSLabel ctermbg=None ctermfg=254 cterm=None guibg=None guifg=#000000 gui=None
 hi TSPunctBracket ctermbg=None  ctermfg=108 cterm=None guibg=None  guifg=#005f00 gui=None
 hi TSPunctSpecial ctermbg=None  ctermfg=108 cterm=None guibg=None  guifg=#005f00 gui=None
 hi TSInclude ctermbg=None ctermfg=110 cterm=None guibg=None guifg=#005f87 gui=None
-" these seem to be buggy right now with diagnostics
-" hi TSError ctermbg=None ctermfg=196 cterm=None guibg=None guifg=#ff0000 gui=None
-" hi TSException ctermbg=None ctermfg=196 cterm=None guibg=None guifg=#ff0000 gui=None
-" hi TSDanger ctermbg=None ctermfg=196 cterm=None guibg=None guifg=#ff0000 gui=None
-" hi TSWarning ctermbg=None ctermfg=227 cterm=None guibg=None guifg=#ffff5f gui=None
 
 " NVIM-LSP
 hi LspCodeLens ctermbg=None ctermfg=024 cterm=italic guibg=None guifg=#005f87 gui=italic
@@ -139,28 +139,6 @@ hi IndentBlanklineChar ctermfg=248 guifg=#9e9e9e gui=nocombine
 hi IndentBlanklineSpaceChar ctermfg=242 guifg=#6c6c6c gui=nocombine
 hi IndentBlanklineSpaceCharBlankline ctermfg=242 guifg=#6c6c6c gui=nocombine
 hi IndentBlanklineContextChar ctermfg=242 guifg=#6c6c6c gui=nocombine
-
-" Treesitter Context
-
-hi TreesitterContext ctermfg=015 ctermbg=254 cterm=italic,bold guifg=#464646 guibg=#ffffff gui=italic,bold
-
-" alpha:            000000 None
-" black_light:      #464646 235
-" black-lighter:    #3a3a3a 237
-" white:            #bcbcbc 250
-" grey_light:       #6c6c6c 242
-" grey_lighter:     #808080 244
-" grey_contrast:    #a8a8a8 248
-" grey_lightest:    #e4e4e4 254
-" blue:             #005f87 024
-" blue_accent:      #87afd7 110
-" red:              #af5f5f 131
-" red_lighter:      #ff0000 196
-" yellow:           #ffff5f 227
-" green:            #87af87 108
-" orange:           #9b885c
-" purple:           #806CCF
-" cyan;             #268889
 
 " litee
 hi LTBoolean                guifg=#005f87 guibg=None
@@ -185,3 +163,4 @@ hi LTIndentGuide            guifg=None    guibg=None
 hi LTExpandedGuide          guifg=None    guibg=None
 hi LTCollapsedGuide         guifg=None    guibg=None
 hi LTSelectFiletree ctermbg=131  ctermfg=246 cterm=None guibg=#af5f5f guifg=#e4e4e4 gui=None
+hi def link LTCurrentFileFiletree Visual
